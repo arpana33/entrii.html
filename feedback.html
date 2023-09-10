@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My feedback form</h1>
+
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Login details</legend>
+        <label for="fname">Name: </label>
+
+        <input type="text" id="fname" name="fname"><br> <br>
+        <label for="lname">Email:</label>
+        <input type="text" id="lname" name="lname"><br> <br>
+        <label for="lname">password:</label>
+        <input type="text" id="lname" name="lname"><br> <br>
+    </fieldset>
+</form>
+<form action="/action_page.php">
+    <fieldset>
+        <legend>Your feedback</legend>
+        <p>Please check all the emotions that apply to you</p>
+        <label for="fname">Angry: </label>
+
+        <input type="checkbox" id="fname" name="fname"><br> <br>
+        <label for="lname">sad:</label>
+        <input type="checkbox" id="lname" name="lname"><br> <br>
+        <label for="lname">happy:</label>
+        <input type="checkbox" id="lname" name="lname"><br> <br>
+        <label for="lname">Ambivalent:</label>
+        <input type="checkbox" id="lname" name="lname"><br> <br>
+<form>
+        <p>How satisfied were you with our service</p><br>
+
+    <input type="radio" id="Satisfied" name="fav_lang">
+    <label for="Satisfied">Satisfied:</label><br>
+    <input type="radio" id="UnSatisfied" name="fav_lang">
+    <label for="unSatisfied">UnSatisfied:</label><br>
+    <input type="radio" id="Average Satisfied" name="fav_lang">
+    <label for="avergeSatisfied">Average Satisfied:</label><br>
+    <input type="radio" id="Below average Satisfied" name="fav_lang">
+    <label for="below average Satisfied">Below average Satisfied:</label><br><br>
+    
+    <label for="fname">Futher comments: </label>
+    <textarea name="message" rows="5" cols="20"></textarea><br>
+
+    <label for="biophoto">Bio photo:</label>
+    <input type="file" id="file" name="upload"><br><br>
+
+    <input type="submit">
+     </fieldset>
